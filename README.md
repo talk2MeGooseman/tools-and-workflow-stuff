@@ -13,3 +13,5 @@ Repo to keep neato burrito scripts, tools and workflow stuff I use or come acros
 * [Synergy](https://symless.com/synergy) - Share one mouse and keyboard between multiple computers 
 * [LICEcap](https://www.cockos.com/licecap/) - LICEcap can capture an area of your desktop and save it directly to .GIF (for viewing in web browsers, etc) or .LCF (see below).
 * [Zeal](https://zealdocs.org/) - Zeal is an offline documentation browser for software developers.
+* [VSCode](https://code.visualstudio.com) - Visual Studio Code simple and powerful IDE
+* [Postman](https://www.getpostman.com) - Build/Test/Manage APIs from a single app
