@@ -7,6 +7,7 @@ Repo to keep neato burrito scripts, tools and workflow stuff I use or come acros
 * [Skitch](https://evernote.com/products/skitch) - Use Skitch to snap it, mark it up, and send it on in an instant. Your bold ideas stand out even brighter with Skitch.
 * [Spectacle](https://www.spectacleapp.com/) - Move and resize windows with ease. Window control with simple and customizable keyboard shortcuts
 * [Velocity](http://velocity.silverlakesoftware.com/) - Velocity gives your Windows desktop offline access to over 150 API documentation sets
+* [iTerm2](https://www.iterm2.com) - The better OSX Terminal
 
 ## Cross Platform
 * [LastPass](https://lastpass.com/misc_download2.php) - Password manager 
