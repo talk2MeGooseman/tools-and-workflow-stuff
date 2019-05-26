@@ -7,6 +7,8 @@ Repo to keep neato burrito scripts, tools and workflow stuff I use or come acros
 * [Homebrew AKA Brew](https://brew.sh) - The missing package manager for macOS (or Linux)
 * [tmux](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/) - tmux is a terminal multiplexer: it enables a number of terminals to be created, accessed, and controlled from a single screen
 
+### VIM/NeoVIM Setup
+* [vim-plug](https://github.com/junegunn/vim-plug) - Easy plugin manager form VIM/NeoVIM
 
 ## OSX Apps
 * [Dash](https://kapeli.com/dash) - Dash is an API Documentation Browser and Code Snippet Manager.
