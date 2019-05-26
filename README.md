@@ -9,6 +9,7 @@ Repo to keep neato burrito scripts, tools and workflow stuff I use or come acros
 * [Velocity](http://velocity.silverlakesoftware.com/) - Velocity gives your Windows desktop offline access to over 150 API documentation sets
 
 ## Cross Platform
+* [LastPass](https://lastpass.com/misc_download2.php) - Password manager 
 * [Synergy](https://symless.com/synergy) - Share one mouse and keyboard between multiple computers 
 * [LICEcap](https://www.cockos.com/licecap/) - LICEcap can capture an area of your desktop and save it directly to .GIF (for viewing in web browsers, etc) or .LCF (see below).
 * [Zeal](https://zealdocs.org/) - Zeal is an offline documentation browser for software developers.
