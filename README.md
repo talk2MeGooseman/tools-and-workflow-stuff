@@ -6,6 +6,7 @@ Repo to keep neato burrito scripts, tools and workflow stuff I use or come acros
 * [NeoVim](https://neovim.io) - VIM rebuilt to more performant and extensible
 * [Homebrew AKA Brew](https://brew.sh) - The missing package manager for macOS (or Linux)
 * [tmux](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/) - tmux is a terminal multiplexer: it enables a number of terminals to be created, accessed, and controlled from a single screen
+* [RVM - Ruby Version Manager](https://rvm.io/rvm/install) - Easily manage and install mutiple Ruby version
 
 ### VIM/NeoVIM Setup
 * [vim-plug](https://github.com/junegunn/vim-plug) - Easy plugin manager form VIM/NeoVIM
@@ -25,3 +26,4 @@ Repo to keep neato burrito scripts, tools and workflow stuff I use or come acros
 * [Zeal](https://zealdocs.org/) - Zeal is an offline documentation browser for software developers.
 * [VSCode](https://code.visualstudio.com) - Visual Studio Code simple and powerful IDE
 * [Postman](https://www.getpostman.com) - Build/Test/Manage APIs from a single app
+* [Docker](https://hub.docker.com) - Docker containers wrap up software and its dependencies into a standardized unit for software development that includes everything it needs to run: code, runtime, system tools and libraries
