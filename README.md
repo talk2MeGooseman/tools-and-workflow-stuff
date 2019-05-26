@@ -1,6 +1,13 @@
 # tools-and-workflow-stuff
 Repo to keep neato burrito scripts, tools and workflow stuff I use or come across
 
+## Unix Command Line
+* [OhMyZSH](https://ohmyz.sh) - A delightful, open source, community-driven framework for managing your Zsh configuration
+* [NeoVim](https://neovim.io) - VIM rebuilt to more performant and extensible
+* [Homebrew AKA Brew](https://brew.sh) - The missing package manager for macOS (or Linux)
+* [tmux](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/) - tmux is a terminal multiplexer: it enables a number of terminals to be created, accessed, and controlled from a single screen
+
+
 ## OSX Apps
 * [Dash](https://kapeli.com/dash) - Dash is an API Documentation Browser and Code Snippet Manager.
 * [Alfred](https://www.alfredapp.com/) - Alfred is an award-winning app for macOS which boosts your efficiency with hotkeys, keywords, text expansion and more. Search your Mac and the web, and be more productive with custom actions to control your Mac.
