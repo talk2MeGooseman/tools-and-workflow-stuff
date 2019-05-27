@@ -6,6 +6,7 @@ Repo to keep neato burrito scripts, tools and workflow stuff I use or come acros
 * [NeoVim](https://neovim.io) - VIM rebuilt to more performant and extensible
 * [Homebrew AKA Brew](https://brew.sh) - The missing package manager for macOS (or Linux)
 * [tmux](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/) - tmux is a terminal multiplexer: it enables a number of terminals to be created, accessed, and controlled from a single screen
+  * [my simple tmux config](https://github.com/talk2MeGooseman/tools-and-workflow-stuff/blob/master/.tmux.conf)
 * [RVM - Ruby Version Manager](https://rvm.io/rvm/install) - Easily manage and install mutiple Ruby version
 
 ### VIM/NeoVIM Setup
