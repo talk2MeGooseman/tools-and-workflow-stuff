@@ -10,6 +10,7 @@ Repo to keep neato burrito scripts, tools and workflow stuff I use or come acros
 * [RVM - Ruby Version Manager](https://rvm.io/rvm/install) - Easily manage and install mutiple Ruby version
 
 ### VIM/NeoVIM Setup
+* [my simple vimrc](https://github.com/talk2MeGooseman/tools-and-workflow-stuff/blob/master/.vimrc) Place in `~/.vimrc` if VIM, `~/.config/nvim/init.vim` for NeoVIM
 * [vim-plug](https://github.com/junegunn/vim-plug) - Easy plugin manager form VIM/NeoVIM
 
 ## OSX Apps
