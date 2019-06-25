@@ -6,13 +6,15 @@ Repo to keep neato burrito scripts, tools and workflow stuff I use or come acros
 * [NeoVim](https://neovim.io) - VIM rebuilt to more performant and extensible
 * [Homebrew AKA Brew](https://brew.sh) - The missing package manager for macOS (or Linux)
 * [tmux](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/) - tmux is a terminal multiplexer: it enables a number of terminals to be created, accessed, and controlled from a single screen
-  * [my simple tmux config](https://github.com/talk2MeGooseman/tools-and-workflow-stuff/blob/master/.tmux.conf)
+* [my simple tmux config](https://github.com/talk2MeGooseman/tools-and-workflow-stuff/blob/master/.tmux.conf)
 * [RVM - Ruby Version Manager](https://rvm.io/rvm/install) - Easily manage and install mutiple Ruby version
 
 ### VIM/NeoVIM Setup
 * [my simple vimrc](https://github.com/talk2MeGooseman/tools-and-workflow-stuff/blob/master/.vimrc) Place in `~/.vimrc` if VIM, `~/.config/nvim/init.vim` for NeoVIM
 * [vim-plug](https://github.com/junegunn/vim-plug) - Easy plugin manager form VIM/NeoVIM
 
+## Windows
+* [Window Subsystem For Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) - The Windows Subsystem for Linux lets developers run GNU/Linux environment -- including most command-line tools, utilities, and applications -- directly on Windows, unmodified, without the overhead of a virtual machine.
 ## OSX Apps
 * [Dash](https://kapeli.com/dash) - Dash is an API Documentation Browser and Code Snippet Manager.
 * [Alfred](https://www.alfredapp.com/) - Alfred is an award-winning app for macOS which boosts your efficiency with hotkeys, keywords, text expansion and more. Search your Mac and the web, and be more productive with custom actions to control your Mac.
@@ -29,3 +31,5 @@ Repo to keep neato burrito scripts, tools and workflow stuff I use or come acros
 * [VSCode](https://code.visualstudio.com) - Visual Studio Code simple and powerful IDE
 * [Postman](https://www.getpostman.com) - Build/Test/Manage APIs from a single app
 * [Docker](https://hub.docker.com) - Docker containers wrap up software and its dependencies into a standardized unit for software development that includes everything it needs to run: code, runtime, system tools and libraries
+* [Hyper](https://hyper.is/) - Electron based terminal application, get the job done
+* [GitKraken](https://www.gitkraken.com/) - Well done Git client that is always improving
