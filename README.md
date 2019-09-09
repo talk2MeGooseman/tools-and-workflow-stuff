@@ -8,6 +8,7 @@ Repo to keep neato burrito scripts, tools and workflow stuff I use or come acros
 * [tmux](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/) - tmux is a terminal multiplexer: it enables a number of terminals to be created, accessed, and controlled from a single screen
 * [my simple tmux config](https://github.com/talk2MeGooseman/tools-and-workflow-stuff/blob/master/.tmux.conf)
 * [RVM - Ruby Version Manager](https://rvm.io/rvm/install) - Easily manage and install mutiple Ruby version
+* [tmuxp](https://github.com/tmux-python/tmuxp) tmux session manager. built on libtmux [https://tmuxp.git-pull.com/]()
 
 ### VIM/NeoVIM Setup
 * [my simple vimrc](https://github.com/talk2MeGooseman/tools-and-workflow-stuff/blob/master/.vimrc) Place in `~/.vimrc` if VIM, `~/.config/nvim/init.vim` for NeoVIM
