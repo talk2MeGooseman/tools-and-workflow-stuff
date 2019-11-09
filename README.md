@@ -17,6 +17,7 @@ Repo to keep neato burrito scripts, tools and workflow stuff I use or come acros
 ## Windows
 * [Window Subsystem For Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) - The Windows Subsystem for Linux lets developers run GNU/Linux environment -- including most command-line tools, utilities, and applications -- directly on Windows, unmodified, without the overhead of a virtual machine.
 * [Windows Terminal](https://github.com/microsoft/terminal) - New Terminal application to rule them all on Windows. Launch CMD, PowerShell, WSL from one terminal application. Highly recommend.
+* [Chocolately](https://chocolatey.org/) - Command line Package Manager for Windows. If you need to install stuff, try this instead of going and downloading executables from places.
 
 ## OSX Apps
 * [Dash](https://kapeli.com/dash) - Dash is an API Documentation Browser and Code Snippet Manager.
