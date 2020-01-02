@@ -1,3 +1,14 @@
+" Requires vim-plug https://github.com/junegunn/vim-plug
+" Load vim-enabled plugins from plugins.vim file
+call plug#begin(s:path . '/plugged')
+exe 'source ' . s:path . '/plugins.vim'
+call plug#end()
+
+" Execute Vroom with :terminal when in NeoVim
+if has('nvim')
+  let g:vroom_use_terminal=1
+endif
+
 " Move between widows holding down ctrl
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
