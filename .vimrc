@@ -1,5 +1,6 @@
 " Requires vim-plug https://github.com/junegunn/vim-plug
 " Load vim-enabled plugins from plugins.vim file
+let s:path = expand('<sfile>:p:h')
 call plug#begin(s:path . '/plugged')
 exe 'source ' . s:path . '/plugins.vim'
 call plug#end()
