@@ -9,6 +9,7 @@ Repo to keep neato burrito scripts, tools and workflow stuff I use or come acros
 * [my simple tmux config](https://github.com/talk2MeGooseman/tools-and-workflow-stuff/blob/master/.tmux.conf)
 * [RVM - Ruby Version Manager](https://rvm.io/rvm/install) - Easily manage and install mutiple Ruby version
 * [tmuxp](https://github.com/tmux-python/tmuxp) tmux session manager. built on libtmux [https://tmuxp.git-pull.com/]()
+* [tpm](https://github.com/tmux-plugins/tpm) - Tmux plugin manager
 
 ### VIM/NeoVIM Setup
 * [my simple vimrc](https://github.com/talk2MeGooseman/tools-and-workflow-stuff/blob/master/.vimrc) Place in `~/.vimrc` if VIM, `~/.config/nvim/init.vim` for NeoVIM
