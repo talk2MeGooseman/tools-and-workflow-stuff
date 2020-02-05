@@ -36,5 +36,6 @@ Repo to keep neato burrito scripts, tools and workflow stuff I use or come acros
 * [Postman](https://www.getpostman.com) - Build/Test/Manage APIs from a single app
 * [Docker](https://hub.docker.com) - Docker containers wrap up software and its dependencies into a standardized unit for software development that includes everything it needs to run: code, runtime, system tools and libraries
 * [Hyper](https://hyper.is/) - Electron based terminal application, get the job done
-* [GitKraken](https://www.gitkraken.com/) - Well done Git client that is always improving
+* [GitKraken](https://www.gitkraken.com/invite/tdPyyVNg) - Well done Git client that is always improving
 * [GDrive](https://www.google.com/drive/download/) - G drive
+* [Notion](https://www.notion.so/?r=887fba53b2e346928bb11aa3cf0667e6) - Notion is swiss army knife note taking app I love to use. Get an extra $10 credit using my referral code and I get some credit also :)
