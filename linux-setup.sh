@@ -63,3 +63,5 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 echo "Add Talk2MeGooseman's .vimrc"
 wget https://raw.githubusercontent.com/talk2MeGooseman/tools-and-workflow-stuff/master/.vimrc
 mv .vimrc ~/
+
+exec /bin/bash --login
