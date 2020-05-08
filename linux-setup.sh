@@ -34,7 +34,7 @@ gem install rails
 
 echo "Installing kiex - Elixir Version Manager"
 curl -sSL https://raw.githubusercontent.com/taylor/kiex/master/install | bash -s stable
-echo '[[ -s "$HOME/.kiex/scripts/kiex" ]] && source "$HOME/.kiex/scripts/kiex"' > ~/.bashrc
+echo '[[ -s "$HOME/.kiex/scripts/kiex" ]] && source "$HOME/.kiex/scripts/kiex"' >> ~/.bashrc
 
 echo "Fetching Erlang & Elixir Deps"
 wget https://packages.erlang-solutions.com/erlang-solutions_2.0_all.deb && sudo dpkg -i erlang-solutions_2.0_all.deb
@@ -66,4 +66,4 @@ mv .vimrc ~/
 
 echo "Install oh-my-zsh"
 curl -sSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh | bash -s stable
-echo "exec zsh" > ~/.bashrc
+echo "exec zsh" >> ~/.bashrc
