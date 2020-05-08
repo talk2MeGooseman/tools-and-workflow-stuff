@@ -7,13 +7,35 @@ if empty(glob('~/.vim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 call plug#begin(s:path . '/plugged')
-
+Plug 'preservim/nerdtree'
+Plug 'jiangmiao/auto-pairs'
+Plug 'tpope/vim-rails'
+Plug 'tpope/vim-endwise'
+Plug 'haishanh/night-owl.vim'
 call plug#end()
 
 " Execute Vroom with :terminal when in NeoVim
 if has('nvim')
   let g:vroom_use_terminal=1
 endif
+
+""""" enable 24bit true color
+
+" If you have vim >=8.0 or Neovim >= 0.1.5
+if (has("termguicolors"))
+ set termguicolors
+endif
+
+" For Neovim 0.1.3 and 0.1.4
+let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+
+""""" enable the theme
+
+syntax enable
+colorscheme night-owl
+
+" To enable the lightline theme
+let g:lightline = { 'colorscheme': 'nightowl' }
 
 " Move between widows holding down ctrl
 nnoremap <C-j> <C-w>j
