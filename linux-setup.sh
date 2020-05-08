@@ -25,12 +25,7 @@ curl -sSL https://rvm.io/pkuczynski.asc | gpg --import -
 curl -sSL https://get.rvm.io | bash -s stable
 source ~/.rvm/scripts/rvm
 
-echo "Installs Ruby"
-rvm install 2.7.1
-rvm use 2.7.1 --default
-
 echo "gem: --no-ri --no-rdoc" > ~/.gemrc
-gem install rails
 
 echo "Installing kiex - Elixir Version Manager"
 curl -sSL https://raw.githubusercontent.com/taylor/kiex/master/install | bash -s stable
@@ -50,8 +45,8 @@ sudo apt-get install elixir -y
 echo "Install Hex, Elixir package manager"
 mix local.hex --force
 
-echo "Install Phoenix application generator 1.5.1"
-mix archive.install hex phx_new 1.5.1 --force
+echo "Install Phoenix application generator"
+mix archive.install hex phx_new --force
 
 echo "Add Tak2MeGooseman's tmux conf"
 wget https://raw.githubusercontent.com/talk2MeGooseman/tools-and-workflow-stuff/master/.tmux.conf
