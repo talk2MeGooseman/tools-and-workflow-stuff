@@ -59,4 +59,8 @@ echo "Add Talk2MeGooseman's .vimrc"
 wget https://raw.githubusercontent.com/talk2MeGooseman/tools-and-workflow-stuff/master/.vimrc
 mv .vimrc ~/
 
+echo "Install docker-compose since Codespaces has Docker but not compose"
+sudo curl -L "https://github.com/docker/compose/releases/download/1.25.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+
 exec /bin/bash --login
