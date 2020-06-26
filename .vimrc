@@ -12,6 +12,10 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-rails'
 Plug 'tpope/vim-endwise'
 Plug 'haishanh/night-owl.vim'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'editorconfig/editorconfig-vim'
+Plug 'airblade/vim-gitgutter'
+Plug 'sheerun/vim-polyglot'
 call plug#end()
 
 " Execute Vroom with :terminal when in NeoVim
@@ -61,8 +65,14 @@ set ruler         " show the cursor position all the time
 set showcmd       " display incomplete commands
 set incsearch     " do incremental searching
 set laststatus=2  " Always display the status line
+set expandtab
+set tabstop=2
 
 " Get if of swapfiles and annoying prompt about file editing
 set nobackup
 set nowritebackup
 set noswapfile
+
+let g:javascript_plugin_jsdoc = 1
+
+map <Leader>n :NERDTreeToggle<CR>
