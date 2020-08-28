@@ -7,7 +7,11 @@ if empty(glob('~/.vim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 call plug#begin(s:path . '/plugged')
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'ntpeters/vim-better-whitespace'
 Plug 'preservim/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-rails'
 Plug 'tpope/vim-endwise'
@@ -15,6 +19,11 @@ Plug 'haishanh/night-owl.vim'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'airblade/vim-gitgutter'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-git'
+Plug 'tpope/vim-sensible'
+Plug 'tpope/vim-surround'
+Plug 'ctrlpvim/ctrlp.vim'
 Plug 'sheerun/vim-polyglot'
 call plug#end()
 
@@ -75,4 +84,13 @@ set noswapfile
 
 let g:javascript_plugin_jsdoc = 1
 
+" CTRL-P remap
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+
+" Nerd tree remap
 map <Leader>n :NERDTreeToggle<CR>
+
+" Better Whitespace
+let g:better_whitespace_enabled=1
+let g:strip_whitespace_on_save=1
