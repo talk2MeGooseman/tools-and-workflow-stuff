@@ -7,23 +7,27 @@ if empty(glob('~/.vim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 call plug#begin(s:path . '/plugged')
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'airblade/vim-gitgutter'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'editorconfig/editorconfig-vim'
+Plug 'elixir-editors/vim-elixir'
+Plug 'haishanh/night-owl.vim'
+Plug 'jiangmiao/auto-pairs'
+Plug 'mhinz/vim-mix-format'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'preservim/nerdtree'
-Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'jiangmiao/auto-pairs'
-Plug 'tpope/vim-rails'
-Plug 'tpope/vim-endwise'
-Plug 'haishanh/night-owl.vim'
 Plug 'terryma/vim-multiple-cursors'
-Plug 'editorconfig/editorconfig-vim'
-Plug 'airblade/vim-gitgutter'
+Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-git'
+Plug 'tpope/vim-rails'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-surround'
-Plug 'ctrlpvim/ctrlp.vim'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'vim-syntastic/syntastic'
+" Load at the end
 Plug 'sheerun/vim-polyglot'
 call plug#end()
 
@@ -51,9 +55,9 @@ colorscheme night-owl
 let g:lightline = { 'colorscheme': 'nightowl' }
 
 " Move between widows holding down ctrl
+nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
-nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
 
 " Disable using arrow keys for nav.. HARD MODE
@@ -94,3 +98,16 @@ map <Leader>n :NERDTreeToggle<CR>
 " Better Whitespace
 let g:better_whitespace_enabled=1
 let g:strip_whitespace_on_save=1
+
+" Syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+" Neovim, use system clipboard
+set clipboard=unnamed
