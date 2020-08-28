@@ -17,6 +17,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'mhinz/vim-mix-format'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'preservim/nerdtree'
+Plug 'sheerun/vim-polyglot'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-fugitive'
@@ -27,8 +28,7 @@ Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'vim-syntastic/syntastic'
-" Load at the end
-Plug 'sheerun/vim-polyglot'
+Plug 'slashmili/alchemist.vim'
 call plug#end()
 
 " Execute Vroom with :terminal when in NeoVim
@@ -69,8 +69,8 @@ nnoremap <Down> :echoe "Use j"<CR>
 " Adjust height when focused
 set winheight=30
 
-" Make it obvious where 80 character line is
-set textwidth=80
+" Make it obvious where 120 character line is
+set textwidth=120
 set colorcolumn=+1
 
 set backspace=2   " Backspace deletes like most programs in insert mode
@@ -80,6 +80,7 @@ set incsearch     " do incremental searching
 set laststatus=2  " Always display the status line
 set expandtab
 set tabstop=2
+set rnu           " Relative line numbers
 
 " Get if of swapfiles and annoying prompt about file editing
 set nobackup
@@ -111,3 +112,15 @@ let g:syntastic_check_on_wq = 0
 
 " Neovim, use system clipboard
 set clipboard=unnamed
+
+" Multi-cursor keymaps
+let g:multi_cursor_use_default_mapping=0
+" Default mapping
+let g:multi_cursor_start_word_key      = '<C-n>'
+let g:multi_cursor_select_all_word_key = '<A-n>'
+let g:multi_cursor_start_key           = 'g<C-n>'
+let g:multi_cursor_select_all_key      = 'g<A-n>'
+let g:multi_cursor_next_key            = '<C-n>'
+let g:multi_cursor_prev_key            = '<C-p>'
+let g:multi_cursor_skip_key            = '<C-x>'
+let g:multi_cursor_quit_key            = '<Esc>'
