@@ -20,13 +20,14 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'airblade/vim-gitgutter'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'editorconfig/editorconfig-vim'
-Plug 'elixir-editors/vim-elixir'
 Plug 'haishanh/night-owl.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'mhinz/vim-mix-format'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'preservim/nerdtree'
 Plug 'sheerun/vim-polyglot'
+Plug 'slashmili/alchemist.vim'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-fugitive'
@@ -37,7 +38,6 @@ Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'vim-syntastic/syntastic'
-Plug 'slashmili/alchemist.vim'
 call plug#end()
 
 " Execute Vroom with :terminal when in NeoVim
@@ -90,13 +90,12 @@ set laststatus=2  " Always display the status line
 set expandtab
 set tabstop=2
 set rnu           " Relative line numbers
+set nowrap
 
 " Get if of swapfiles and annoying prompt about file editing
 set nobackup
 set nowritebackup
 set noswapfile
-
-let g:javascript_plugin_jsdoc = 1
 
 " CTRL-P remap
 let g:ctrlp_map = '<c-p>'
@@ -135,3 +134,7 @@ let g:multi_cursor_next_key            = '<C-n>'
 let g:multi_cursor_prev_key            = '<C-p>'
 let g:multi_cursor_skip_key            = '<C-x>'
 let g:multi_cursor_quit_key            = '<Esc>'
+
+" vim-javascript
+let g:javascript_plugin_jsdoc = 1
+let g:javascript_plugin_flow = 1
