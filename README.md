@@ -40,3 +40,21 @@ Repo to keep neato burrito scripts, tools and workflow stuff I use or come acros
 * [GitKraken](https://www.gitkraken.com/invite/tdPyyVNg) - Well done Git client that is always improving
 * [GDrive](https://www.google.com/drive/download/) - G drive
 * [Notion](https://www.notion.so/?r=887fba53b2e346928bb11aa3cf0667e6) - Notion is swiss army knife note taking app I love to use. Get an extra $10 credit using my referral code and I get some credit also :)
+
+## coc-vim plugins
+- coc-css
+- coc-docthis
+- coc-elixir
+- coc-eslint
+- coc-fzf-preview
+- coc-html
+- coc-import-cost
+- coc-json
+- coc-prettier
+- coc-react-refactor
+- coc-solargraph
+- coc-spell-checker
+- coc-styled-components
+- coc-stylelint
+- coc-tsserver
+- coc-yaml
