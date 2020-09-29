@@ -269,8 +269,10 @@ nmap s <Plug>(easymotion-overwin-f2)
 let g:EasyMotion_smartcase = 1
 
 " JK motions: Line motions
+map <Leader>l <Plug>(easymotion-lineforward)
 map <Leader>j <Plug>(easymotion-j)
 map <Leader>k <Plug>(easymotion-k)
+map <Leader>h <Plug>(easymotion-linebackward)
 
 " Gif config
 map  / <Plug>(easymotion-sn)
@@ -293,7 +295,3 @@ nmap <Leader>L <Plug>(easymotion-overwin-line)
 " Move to word
 map  <Leader>w <Plug>(easymotion-bd-w)
 nmap <Leader>w <Plug>(easymotion-overwin-w)
-
-" Move to word
-map  <Leader>b <Plug>(easymotion-bd-b)
-nmap <Leader>b <Plug>(easymotion-overwin-b)
